@@ -1,0 +1,27 @@
+Help on module ambidand:
+
+NAME
+    ambidand
+
+FUNCTIONS
+    dand(expr)
+        dand is a curried version of logical and.
+    
+    dconst(x)
+        dconst(x) is a function which, when called with anything,
+        returns x
+    
+    dif(expr)
+        dif(expr) is a function which returns the first of its args if
+        expr is True, the second otherwise.
+    
+    dor(expr)
+        dor is a curried version of logical or.
+    
+    dxor(expr)
+        dxor is a curried version of logical xor.
+
+FILE
+    /home/dan/devel/dand/ambidand.py
+
+
